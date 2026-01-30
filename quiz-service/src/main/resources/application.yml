@@ -1,0 +1,15 @@
+server:
+  port: 1146
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/quiz_service
+    username: spring_student    #usernmae and password should match as user in sql
+    password: springboot
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+  application:
+    name: quiz-service

@@ -1,0 +1,5 @@
+How to run multiple instances of service?
+
+1.goto edit configuration> copy-paste your application and name your new application
+2.goto modifiy option> Add VM option
+3.	-Dserver.port=8081 	(give any new port number)
